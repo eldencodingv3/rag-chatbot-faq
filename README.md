@@ -46,7 +46,10 @@ A Node.js RAG (Retrieval-Augmented Generation) chatbot that answers customer sup
 
 | Variable | Required | Default | Description |
 |----------|----------|---------|-------------|
-| `OPENAI_API_KEY` | Yes | — | Your OpenAI API key for embeddings and chat |
+| `OPENAI_API_KEY` | Yes | — | Your OpenAI API key (or OpenRouter/Together AI key) |
+| `OPENAI_BASE_URL` | No | `https://api.openai.com/v1` | API base URL (use `https://openrouter.ai/api/v1` for OpenRouter) |
+| `CHAT_MODEL` | No | `gpt-3.5-turbo` | Chat model name (use `openai/gpt-3.5-turbo` for OpenRouter) |
+| `EMBEDDING_MODEL` | No | `text-embedding-3-small` | Embedding model (use `openai/text-embedding-3-small` for OpenRouter) |
 | `PORT` | No | `3000` | Server port |
 
 ## Updating the FAQ Dataset
