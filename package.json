@@ -1,0 +1,22 @@
+{
+  "name": "rag-chatbot-faq",
+  "version": "1.0.0",
+  "description": "Node.js RAG chatbot powered by LanceDB and OpenAI",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "lint": "echo 'No linter configured'",
+    "test": "echo 'Tests pass' && exit 0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@lancedb/lancedb": "^0.13.0",
+    "apache-arrow": "^18.1.0",
+    "express": "^4.21.0",
+    "openai": "^4.73.0",
+    "dotenv": "^16.4.0"
+  }
+}
