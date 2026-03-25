@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "question": "How do I reset my password?",
+    "answer": "Go to the login page, click 'Forgot Password', enter your email, and follow the instructions in the reset email. The link expires in 24 hours."
+  },
+  {
+    "id": 2,
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, Mastercard, American Express, and PayPal. All payments are processed securely through Stripe."
+  },
+  {
+    "id": 3,
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Billing > Cancel Subscription. Your access continues until the end of your current billing period. No refunds for partial months."
+  },
+  {
+    "id": 4,
+    "question": "What are your pricing plans?",
+    "answer": "We offer three plans: Free (up to 3 projects), Pro ($12/month, unlimited projects, priority support), and Enterprise ($49/month, custom integrations, dedicated support)."
+  },
+  {
+    "id": 5,
+    "question": "How do I contact support?",
+    "answer": "Email us at support@example.com or use the in-app chat widget. Business hours are Monday-Friday, 9 AM - 6 PM EST. Pro and Enterprise users get priority response within 4 hours."
+  },
+  {
+    "id": 6,
+    "question": "Can I export my data?",
+    "answer": "Yes. Go to Settings > Data > Export. You can export in CSV or JSON format. Exports include all your projects, tasks, and settings. Large exports are emailed as a download link."
+  },
+  {
+    "id": 7,
+    "question": "Is there a mobile app?",
+    "answer": "Yes, we have iOS and Android apps available on the App Store and Google Play. They sync in real-time with the web version."
+  },
+  {
+    "id": 8,
+    "question": "How do I invite team members?",
+    "answer": "Go to Settings > Team > Invite. Enter their email addresses. They'll receive an invitation link. Free plan allows up to 3 team members, Pro allows 10, Enterprise is unlimited."
+  },
+  {
+    "id": 9,
+    "question": "What happens when my free trial ends?",
+    "answer": "After the 14-day trial, you'll be moved to the Free plan. Your data is preserved, but you'll be limited to 3 projects. Upgrade anytime to regain full access."
+  },
+  {
+    "id": 10,
+    "question": "Do you offer refunds?",
+    "answer": "We offer a 30-day money-back guarantee for annual plans. Monthly plans are non-refundable but you can cancel anytime. Contact support@example.com for refund requests."
+  },
+  {
+    "id": 11,
+    "question": "How do I change my email address?",
+    "answer": "Go to Settings > Account > Email. Enter your new email and verify it via the confirmation link. Your old email remains active until verification is complete."
+  },
+  {
+    "id": 12,
+    "question": "Is my data secure?",
+    "answer": "Yes. We use AES-256 encryption at rest, TLS 1.3 in transit, and are SOC 2 Type II certified. Data is stored in AWS us-east-1 with daily backups retained for 30 days."
+  }
+]
