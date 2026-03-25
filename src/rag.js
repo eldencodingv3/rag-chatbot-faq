@@ -3,7 +3,10 @@ import OpenAI from 'openai';
 import { readFile } from 'fs/promises';
 import { config } from './config.js';
 
-const openai = new OpenAI({ apiKey: config.openaiApiKey });
+const openai = new OpenAI({
+  apiKey: config.openaiApiKey,
+  baseURL: config.openaiBaseUrl,
+});
 
 let table = null;
 
