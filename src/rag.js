@@ -50,7 +50,10 @@ export async function initializeRAG() {
 
 export async function query(userMessage) {
   if (!table) {
-    throw new Error('RAG system not initialized');
+    return {
+      reply: 'The chatbot is still initializing or the OPENAI_API_KEY is not configured. Please try again later or contact the administrator.',
+      sources: [],
+    };
   }
 
   const queryVector = await getEmbedding(userMessage);
